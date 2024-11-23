@@ -1,0 +1,59 @@
+/* Navbar Styling */
+.navbar {
+  background-color: #343a40; /* Bootstrap dark background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow for visibility */
+}
+
+.navbar-brand {
+  color: #ffffff; /* Brand text color */
+  font-size: 1.5rem; /* Larger font for emphasis */
+  font-weight: bold; /* Highlight brand name */
+/*  text-transform: uppercase; /* Optional: Uppercase brand text */*/
+}
+
+.nav-link {
+  color: #cccccc; /* Light gray for links */
+  margin-right: 1rem; /* Space between links */
+  font-size: 1rem; /* Standard size */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-link:hover {
+  color: #ff5722; /* Bright color for better hover feedback */
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.6); /* Visible toggler border */
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 0.25rem; /* Optional rounded edges */
+  position: relative;
+}
+
+/* Search Bar Styling */
+.form-control {
+  border-radius: 0.25rem; /* Rounded corners */
+  max-width: 250px; /* Wider search bar */
+  background-color: #222; /* Dark background */
+  color: #ffffff; /* White text */
+  border: 1px solid #555; /* Subtle border */
+}
+
+.form-control:focus {
+  border-color: #ff5722; /* Highlight border on focus */
+  box-shadow: 0 0 5px rgba(255, 87, 34, 0.5); /* Accent focus shadow */
+}
+
+.form-control::placeholder {
+  color: #aaa; /* Subtle placeholder text */
+}
+
+/* Input Group Styling */
+.input-group {
+  display: flex;
+  align-items: center; /* Center align icon and input */
+}
