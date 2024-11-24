@@ -11,9 +11,8 @@ function App() {
   return (
     <>
 
-      <div>
-        <NavBar />
-      </div>
+      {/*Fixed Navbar*/}
+      <NavBar />
 
       <div className="container">
         <h1>Hello World!</h1>
@@ -21,7 +20,7 @@ function App() {
 
       <div className="text-center">
           <h1>Welcome to My Portfolio</h1>
-           <FaReact size={50} color="blue" />
+          <FaReact size={50} color="blue" />
        </div>
     </>
   )

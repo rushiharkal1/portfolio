@@ -4,7 +4,7 @@ import { FaHome, FaProjectDiagram, FaBookOpen, FaBlog, FaPhone, FaInfoCircle, Fa
 function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark sticky-top bg-dark" aria-label="Main navigation">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" aria-label="Main navigation">
         <div className="container-fluid">
 
           {/* Navbar Brand */}
@@ -61,7 +61,7 @@ function NavBar() {
           </div>
 
           {/* Search Form */}
-          <form className="col-lg-2 d-none d-xl-block" role="search">
+          <form className="col-lg-3 d-none d-xl-block" role="search">
             <div className="input-group">
               <input
                 className="form-control"
@@ -69,6 +69,7 @@ function NavBar() {
                 placeholder="Search"
                 aria-label="Search"
               />
+               <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </div>
           </form>
         </div>

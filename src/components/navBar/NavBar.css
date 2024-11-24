@@ -24,6 +24,7 @@
 
 .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.6); /* Visible toggler border */
+  transition: all 0.3s ease-in-out; /* Smooth toggler animation */
 }
 
 .navbar-toggler-icon {
@@ -31,7 +32,7 @@
   width: 1.5em;
   height: 1.5em;
   border-radius: 0.25rem; /* Optional rounded edges */
-  position: relative;
+/*  position: relative;*/
 }
 
 /* Search Bar Styling */
@@ -41,6 +42,7 @@
   background-color: #222; /* Dark background */
   color: #ffffff; /* White text */
   border: 1px solid #555; /* Subtle border */
+  transition: all 0.3s ease-in-out; /* Smooth input animation */
 }
 
 .form-control:focus {
