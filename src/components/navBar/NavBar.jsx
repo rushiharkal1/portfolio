@@ -8,7 +8,7 @@ function NavBar() {
         <div className="container-fluid">
 
           {/* Navbar Brand */}
-          <a className="navbar-brand col-lg-3" href="#" aria-label="Website name">
+          <a className="navbar-brand" href="#" aria-label="Website name">
             RushiHarkal1
           </a>
 
@@ -25,7 +25,7 @@ function NavBar() {
           </button>
 
           {/* Collapsible Content */}
-          <div className="collapse navbar-collapse col-lg-6" id="navBar">
+          <div className="collapse navbar-collapse" id="navBar">
             <ul className="navbar-nav me-auto">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
@@ -58,10 +58,10 @@ function NavBar() {
                 </a>
               </li>
             </ul>
-          </div>
+          
 
           {/* Search Form */}
-          <form className="col-lg-3 d-none d-xl-block" role="search">
+          <form className="col-md-3" role="search">
             <div className="input-group">
               <input
                 className="form-control"
@@ -72,6 +72,7 @@ function NavBar() {
                <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </div>
           </form>
+        </div>
         </div>
       </nav>
     </>
