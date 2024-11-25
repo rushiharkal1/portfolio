@@ -5,6 +5,7 @@ import './App.css';
 import { FaReact } from 'react-icons/fa';
 // components
 import NavBar from './components/navBar/NavBar.jsx';
+import Carousel from './components/carousel/Carousel.jsx'
 
 function App() {
 
@@ -13,6 +14,9 @@ function App() {
 
       {/*Fixed Navbar*/}
       <NavBar />
+
+      {/*Carousel*/}
+      <Carousel />
 
       <div className="container">
         <h1>Hello World!</h1>
